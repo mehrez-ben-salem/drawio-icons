@@ -1,0 +1,49 @@
+app:
+  name: "Demo project for extracting icons from https://app.diagrams.net/, optimize icons and convert icons to plantuml sprites"
+  version: "2.1.0"
+
+  proxy:
+    active: false
+    host: ${PROXY_HOST:-localhost}
+    port: ${PROXY_PORT:-3128}
+
+  #drawio:
+   # url: https://app.diagrams.net/?splash=0
+    #lang: en
+    #libs: allied_telesis;android;archimate;archimate3;arrows2;atlassian;aws3;aws3d;aws4;azure;basic;bootstrap;bpmn;cabinets;cisco;cisco_safe;citrix;clipart;dfd;eip;electrical;er;floorplan;flowchart;gcp2;general;gmdl;ibm;images;infographic;ios;lean_mapping;mockups;mscae;network;office;pid;rack;signs;sitemap;sysml;uml;veeam;webicons
+    #libs: azure;gcp2;office;
+
+  extractor:
+    type:
+    input:
+      path: data/inputs/offline.html
+      #path: data/inputs/online.html
+      filter:
+        active: false
+        regex: ^(Office|AWS).*
+    #output: data/outputs/offline/icons/
+    output: data/outputs/online/icons/
+
+  optimizer:
+    type:
+    input:
+      path: data/outputs/offline/icons
+      #path: data/outputs/online/icons
+      filter:
+        active: false
+        regex:
+    output: data/outputs/offline/optimized/icons
+    #output: data/outputs/online/optimized/icons
+
+  transformer:
+    type:
+    input:
+      path: data/outputs/offline/optimized/icons
+      #path: data/outputs/online/optimized/icons
+      filter:
+        active: false
+        regex:
+    output: data/outputs/offline/sprites
+    #output: data/outputs/online/sprites
+
+
