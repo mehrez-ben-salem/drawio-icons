@@ -21,8 +21,8 @@ app:
       filter:
         active: false
         regex: ^(Office|AWS).*
-    #output: data/outputs/offline/icons/
-    output: data/outputs/online/icons/
+    output: data/outputs/offline/icons/
+    #output: data/outputs/online/icons/
 
   optimizer:
     type:
