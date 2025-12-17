@@ -1,12 +1,14 @@
 <project>
     <modelVersion>4.0.0</modelVersion>
     <groupId>mz.tutorials</groupId>
-    <artifactId>vector-icon-lib</artifactId>
+    <artifactId>drawio-icons</artifactId>
     <version>1.0</version>
     <description>Demo project for extracting icons from https://app.diagrams.net/</description>
+
     <properties>
         <java.version>25</java.version>
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.jsoup</groupId>
