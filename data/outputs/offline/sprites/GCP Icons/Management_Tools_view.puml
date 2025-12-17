@@ -1,0 +1,5 @@
+@startuml
+skinparam svgInline true
+!include Management_Tools.puml
+listsprites
+@enduml

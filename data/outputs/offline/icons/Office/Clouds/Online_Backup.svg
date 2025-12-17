@@ -1,0 +1,11 @@
+<svg style="left: 0px; top: 0px; width: 32px; height: 30px; display: block; position: relative; overflow: hidden; pointer-events: none;">
+ <g style="pointer-events: none;">
+  <g style="pointer-events: none;"></g>
+  <g style="pointer-events: none;">
+   <g transform="translate(0.5,0.5)" style="visibility: visible; pointer-events: none;">
+    <rect x="1.36" y="6.16" width="29.29" height="17.69" fill="none" stroke="white" visibility="hidden" stroke-width="9" style="pointer-events: none;"></rect><rect x="1.36" y="6.16" width="29.29" height="17.69" fill="none" stroke="none" style="pointer-events: none;"></rect> <path d="M 5.2 23.84 C 3.16 23.44 1.64 21.77 1.48 19.76 C 1.36 18.5 1.78 17.25 2.66 16.31 C 3.53 15.37 4.77 14.82 6.08 14.8 C 6.96 13.6 8.46 12.98 9.97 13.19 C 10.1 11.47 10.95 9.95 12.25 9.13 C 13.71 8.13 15.63 8.02 17.2 8.85 C 18.17 9.35 18.95 10.15 19.4 11.12 L 19.4 12.22 L 18.9 12.45 C 18.17 10.82 17.03 9.72 15.74 9.42 C 14.46 9.2 13.16 9.62 12.23 10.55 C 11.58 11.21 11.17 12.05 11.05 12.96 L 11 14.46 L 9.3 14.18 C 8.59 14.2 7.91 14.47 7.39 14.94 C 7.07 15.24 6.81 15.6 6.63 15.99 C 5.29 15.68 3.89 16.22 3.15 17.35 C 2.44 18.44 2.36 19.8 2.94 20.95 C 3.47 21.92 4.43 22.58 5.55 22.74 L 24.82 22.74 C 25.67 22.55 26.4 22.03 26.83 21.3 C 27.27 20.57 27.38 19.69 27.13 18.88 L 28.24 18.57 C 28.54 19.64 28.39 20.78 27.83 21.75 C 27.18 22.86 26.04 23.64 24.73 23.84 Z" fill="#505050" stroke="none" style="fill: light-dark(rgb(80, 80, 80), rgb(168, 168, 168)); pointer-events: none;"></path> <path d="M 20.51 15.57 L 20.51 8.48 L 27.1 6.16 L 30.64 7.09 L 30.64 16.9 L 27.1 17.75 L 20.72 15.62 L 27.28 16.45 L 27.28 7.88 L 22.77 8.93 L 22.77 14.72 Z" fill="#da4026" stroke="none" style="fill: light-dark(rgb(218, 64, 38), rgb(255, 129, 107)); pointer-events: none;"></path>
+   </g>
+  </g>
+  <g style="pointer-events: none;"></g><g style="pointer-events: none;"></g>
+ </g>
+</svg>

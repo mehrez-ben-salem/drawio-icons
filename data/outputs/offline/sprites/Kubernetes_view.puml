@@ -1,0 +1,5 @@
+@startuml
+skinparam svgInline true
+!include Kubernetes.puml
+listsprites
+@enduml

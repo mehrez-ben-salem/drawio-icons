@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:v="https://vecta.io/nano" width="20" height="16" viewBox="0 0 20 16">
+ <style type="text/css"> .st0{fill:#669df6;} .st1{fill:#aecbfa;} .st2{fill:#4285f4;} </style>
+ <g class="st0">
+  <path d="M10 16L0 8h4l6 4.99z" /><path d="M20 8l-10 8v-3.01L16 8z" />
+ </g>
+ <g class="st1">
+  <path d="M10 3.01L4 8H0l10-8z" /><path d="M20 8L10 0v3.01L16 8z" />
+ </g>
+ <circle class="st2" cx="10" cy="8" r="2" />
+</svg>

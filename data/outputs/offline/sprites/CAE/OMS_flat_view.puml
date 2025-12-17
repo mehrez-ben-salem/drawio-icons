@@ -1,0 +1,5 @@
+@startuml
+skinparam svgInline true
+!include OMS_flat.puml
+listsprites
+@enduml

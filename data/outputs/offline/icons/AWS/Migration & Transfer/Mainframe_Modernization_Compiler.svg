@@ -1,0 +1,11 @@
+<svg style="left: 0px; top: 0px; width: 32px; height: 30px; display: block; position: relative; overflow: hidden; pointer-events: none;">
+ <g style="pointer-events: none;">
+  <g style="pointer-events: none;"></g>
+  <g style="pointer-events: none;">
+   <g transform="translate(0.5,0.5)" style="visibility: visible; pointer-events: none;">
+    <path d="M 19.63 6.31 L 26.46 6.31 L 26.46 5.07 L 19.63 5.07 Z M 10.95 6.31 L 15.29 6.31 L 15.29 5.07 L 10.95 5.07 Z M 20.25 10.04 L 29.56 10.04 L 29.56 8.8 L 20.25 8.8 Z M 8.46 6.93 C 8.47 9.33 10.41 11.27 12.81 11.28 C 15.2 11.27 17.15 9.33 17.15 6.93 C 17.15 4.54 15.2 2.59 12.81 2.59 C 10.41 2.59 8.47 4.54 8.46 6.93 Z M 8.94 10.95 L 3.32 16.58 L 2.44 15.7 L 8.14 10 C 7.54 9.09 7.22 8.02 7.22 6.93 C 7.22 3.86 9.73 1.35 12.81 1.35 C 15.89 1.35 18.39 3.86 18.39 6.93 C 18.39 10.01 15.89 12.52 12.81 12.52 C 11.31 12.52 9.94 11.92 8.94 10.95 Z M 9.7 24.93 L 23.98 24.93 L 23.98 23.69 L 9.7 23.69 Z M 5.98 21.2 L 18.39 21.2 L 18.39 19.96 L 5.98 19.96 Z M 9.7 17.48 L 23.98 17.48 L 23.98 16.24 L 9.7 16.24 Z M 17.77 13.76 L 29.56 13.76 L 29.56 12.52 L 17.77 12.52 Z M 24.45 19.63 L 29.25 23.38 L 22.49 28.65 L 10.15 28.65 L 3.4 23.38 L 5.49 21.74 L 6.26 22.72 L 5.42 23.38 L 10.58 27.41 L 22.07 27.41 L 27.23 23.38 L 23.69 20.61 Z" fill="#01a88d" stroke="none" style="fill: light-dark(rgb(1, 168, 141), rgb(14, 157, 134)); pointer-events: none;"></path>
+   </g>
+  </g>
+  <g style="pointer-events: none;"></g><g style="pointer-events: none;"></g>
+ </g>
+</svg>

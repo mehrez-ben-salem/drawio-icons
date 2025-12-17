@@ -1,0 +1,5 @@
+@startuml
+skinparam svgInline true
+!include Open_Source_Icons.puml
+listsprites
+@enduml

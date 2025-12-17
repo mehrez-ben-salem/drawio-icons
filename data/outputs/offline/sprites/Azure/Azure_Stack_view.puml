@@ -1,0 +1,5 @@
+@startuml
+skinparam svgInline true
+!include Azure_Stack.puml
+listsprites
+@enduml

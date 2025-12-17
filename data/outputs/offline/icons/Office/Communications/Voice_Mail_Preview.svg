@@ -1,0 +1,11 @@
+<svg style="left: 0px; top: 0px; width: 32px; height: 30px; display: block; position: relative; overflow: hidden; pointer-events: none;">
+ <g style="pointer-events: none;">
+  <g style="pointer-events: none;"></g>
+  <g style="pointer-events: none;">
+   <g transform="translate(0.5,0.5)" style="visibility: visible; pointer-events: none;">
+    <rect x="1.18" y="2" width="29.64" height="26" fill="none" stroke="white" visibility="hidden" stroke-width="9" style="pointer-events: none;"></rect><rect x="1.18" y="2" width="29.64" height="26" fill="none" stroke="none" style="pointer-events: none;"></rect> <path d="M 4.68 3.16 L 4.68 2 L 24.96 2 L 24.96 3.16 Z M 4.68 5.49 L 4.68 4.33 L 24.96 4.33 L 24.96 5.49 Z M 4.68 7.82 L 4.68 6.65 L 24.96 6.65 L 24.96 7.82 Z M 4.68 10.15 L 4.68 8.98 L 24.96 8.98 L 24.96 10.15 Z M 19.5 20.24 L 28.08 20.24 L 28.08 14.81 L 19.5 14.81 Z M 28.87 16.75 L 30.04 16.75 L 30.04 15.59 L 28.87 15.59 Z M 28.87 19.08 L 30.04 19.08 L 30.04 17.91 L 28.87 17.91 Z M 28.87 21.41 L 30.04 21.41 L 30.04 20.24 L 28.87 20.24 Z M 28.87 23.73 L 30.04 23.73 L 30.04 22.57 L 28.87 22.57 Z M 28.87 26.06 L 30.04 26.06 L 30.04 24.89 L 28.87 24.89 Z M 17.55 16.75 L 18.72 16.75 L 18.72 15.59 L 17.55 15.59 Z M 17.55 19.08 L 18.72 19.08 L 18.72 17.91 L 17.55 17.91 Z M 17.55 21.41 L 18.72 21.41 L 18.72 20.24 L 17.55 20.24 Z M 17.55 23.73 L 18.72 23.73 L 18.72 22.57 L 17.55 22.57 Z M 4.68 12.47 L 4.68 11.31 L 24.96 11.31 L 24.96 12.47 Z M 4.69 14.8 L 4.68 13.64 L 15.61 13.64 L 15.61 14.8 Z M 19.5 26.84 L 28.08 26.84 L 28.08 21.41 L 19.5 21.41 Z M 17.55 26.06 L 18.72 26.06 L 18.72 24.89 L 17.55 24.89 Z M 16.78 28 L 16.78 13.64 L 17.55 13.64 L 17.55 14.42 L 18.72 14.42 L 18.72 13.64 L 28.87 13.64 L 28.87 14.42 L 30.04 14.42 L 30.04 13.64 L 30.82 13.64 L 30.82 28 L 30.04 28 L 30.04 27.22 L 28.87 27.22 L 28.87 28 L 18.72 28 L 18.72 27.22 L 17.55 27.22 L 17.55 28 Z M 1.18 23.73 L 1.18 15.97 L 3.52 12.98 L 3.52 15.97 L 15.61 15.97 L 15.61 23.73 Z" fill="#505050" stroke="none" style="fill: light-dark(rgb(80, 80, 80), rgb(168, 168, 168)); pointer-events: none;"></path>
+   </g>
+  </g>
+  <g style="pointer-events: none;"></g><g style="pointer-events: none;"></g>
+ </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg style="left: 0px; top: 0px; width: 32px; height: 30px; display: block; position: relative; overflow: hidden; pointer-events: none;">
+ <g style="pointer-events: none;">
+  <g style="pointer-events: none;"></g>
+  <g style="pointer-events: none;">
+   <g transform="translate(0.5,0.5)" style="visibility: visible; pointer-events: none;">
+    <rect x="1.18" y="6.07" width="29.64" height="17.86" fill="none" stroke="white" visibility="hidden" stroke-width="9" style="pointer-events: none;"></rect><rect x="1.18" y="6.07" width="29.64" height="17.86" fill="none" stroke="none" style="pointer-events: none;"></rect> <path d="M 1.75 6.08 C 1.44 6.08 1.18 6.33 1.18 6.65 L 1.18 23.35 C 1.18 23.5 1.24 23.65 1.35 23.76 C 1.45 23.86 1.6 23.92 1.75 23.92 L 30.25 23.92 C 30.4 23.92 30.55 23.86 30.65 23.76 C 30.76 23.65 30.82 23.5 30.82 23.35 L 30.82 6.65 C 30.82 6.33 30.56 6.08 30.25 6.08 Z M 2.32 7.22 L 29.68 7.22 L 29.68 22.78 L 2.32 22.78 Z M 11.87 8.45 L 11.87 21.51 L 13.01 21.51 L 13.01 8.45 Z M 15.43 8.45 L 15.43 21.51 L 16.57 21.51 L 16.57 8.45 Z M 18.98 8.45 L 18.98 21.51 L 20.12 21.51 L 20.12 8.45 Z M 6.48 11.93 C 6.33 11.93 6.18 11.99 6.07 12.1 C 5.97 12.21 5.91 12.35 5.91 12.5 L 5.91 17.45 C 5.91 17.67 6.03 17.87 6.23 17.97 C 6.43 18.06 6.67 18.03 6.84 17.89 L 9.8 15.46 C 9.93 15.35 10.01 15.19 10.01 15.02 C 10.01 14.85 9.94 14.69 9.81 14.58 L 6.84 12.07 C 6.74 11.98 6.61 11.94 6.48 11.93 Z M 25.51 11.93 C 25.38 11.94 25.25 11.98 25.15 12.07 L 22.18 14.58 C 22.05 14.69 21.98 14.85 21.98 15.02 C 21.98 15.19 22.06 15.35 22.19 15.46 L 25.15 17.89 C 25.32 18.03 25.56 18.06 25.76 17.97 C 25.96 17.87 26.08 17.67 26.08 17.45 L 26.08 12.5 C 26.08 12.35 26.02 12.21 25.92 12.1 C 25.81 11.99 25.66 11.93 25.51 11.93 Z M 7.05 13.73 L 8.55 15.01 L 7.05 16.25 Z M 24.94 13.73 L 24.94 16.25 L 23.44 15.01 Z" fill="#e7157b" stroke="none" style="fill: light-dark(rgb(231, 21, 123), rgb(255, 129, 217)); pointer-events: none;"></path>
+   </g>
+  </g>
+  <g style="pointer-events: none;"></g><g style="pointer-events: none;"></g>
+ </g>
+</svg>

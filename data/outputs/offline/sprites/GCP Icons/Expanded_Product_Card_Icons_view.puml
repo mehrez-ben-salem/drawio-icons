@@ -1,0 +1,5 @@
+@startuml
+skinparam svgInline true
+!include Expanded_Product_Card_Icons.puml
+listsprites
+@enduml

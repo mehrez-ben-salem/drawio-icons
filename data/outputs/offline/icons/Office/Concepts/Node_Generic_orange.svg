@@ -1,0 +1,11 @@
+<svg style="left: 0px; top: 0px; width: 32px; height: 30px; display: block; position: relative; overflow: hidden; pointer-events: none;">
+ <g style="pointer-events: none;">
+  <g style="pointer-events: none;"></g>
+  <g style="pointer-events: none;">
+   <g transform="translate(0.5,0.5)" style="visibility: visible; pointer-events: none;">
+    <rect x="3.81" y="1.22" width="24.38" height="27.56" fill="none" stroke="white" visibility="hidden" stroke-width="9" style="pointer-events: none;"></rect><rect x="3.81" y="1.22" width="24.38" height="27.56" fill="none" stroke="none" style="pointer-events: none;"></rect> <path d="M 16 14.18 L 4.77 7.7 L 16 1.22 L 27.19 7.7 Z M 16.6 28.78 L 16.6 15.3 L 28.19 8.62 L 28.19 22.1 Z M 15.4 28.77 L 3.81 22.1 L 3.81 8.69 L 15.4 15.38 Z" fill="#2072b8" stroke="none" style="fill: light-dark(rgb(32, 114, 184), rgb(90, 161, 221)); pointer-events: none;"></path>
+   </g>
+  </g>
+  <g style="pointer-events: none;"></g><g style="pointer-events: none;"></g>
+ </g>
+</svg>

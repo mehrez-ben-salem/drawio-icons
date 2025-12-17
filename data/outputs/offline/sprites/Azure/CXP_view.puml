@@ -1,0 +1,5 @@
+@startuml
+skinparam svgInline true
+!include CXP.puml
+listsprites
+@enduml

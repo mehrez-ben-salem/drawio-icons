@@ -1,0 +1,5 @@
+@startuml
+skinparam svgInline true
+!include Mobile.puml
+listsprites
+@enduml

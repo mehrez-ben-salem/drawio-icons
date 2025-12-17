@@ -1,0 +1,5 @@
+@startuml
+skinparam svgInline true
+!include Storage.puml
+listsprites
+@enduml

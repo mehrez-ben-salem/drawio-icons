@@ -1,0 +1,4 @@
+@startuml
+sprite Filestore <svg width="20" height="16" viewBox="0 0 20 16"><path class="st2" d="M0 0h20v7H0z" /><path class="st1" d="M18 0h2v7h-2z" /><path class="st0" d="M18 7l2-7h-2z" /><path class="st1" d="M0 0h2v7H0z" /><g class="st3"><path d="M4 3h6v1H4z" /><rect x="13" y="2" width="3" height="3" rx="1.5" /></g><path class="st2" d="M0 9h20v7H0z" /><path class="st1" d="M18 9h2v7h-2z" /><path class="st0" d="M18 16l2-7h-2z" /><path class="st1" d="M0 9h2v7H0z" /><g class="st3"><path d="M4 12h6v1H4z" /><rect x="13" y="11" width="3" height="3" rx="1.5" /></g></svg>
+sprite Persistent_Disk <svg width="20" height="16" viewBox="0 0 20 16"><path class="st0" d="M12 10H8L6 8h8z" /><path class="st2" d="M16 2H4l1-2h10zm3 3H1l1-2h16z" /><path class="st1" d="M14 7l-2 3H8L6 7H0v9h20V7z" /></svg>
+@enduml

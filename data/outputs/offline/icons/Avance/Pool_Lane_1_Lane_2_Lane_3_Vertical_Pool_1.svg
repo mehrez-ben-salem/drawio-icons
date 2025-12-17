@@ -1,0 +1,64 @@
+<svg style="left: 0px; top: 0px; width: 32px; height: 30px; display: block; position: relative; overflow: hidden; pointer-events: none;">
+ <g style="pointer-events: none;">
+  <g style="pointer-events: none;"></g>
+  <g style="pointer-events: none;">
+   <g transform="translate(0.5,0.5)" style="visibility: visible; pointer-events: none;">
+    <path d="M 2.8 4.2 L 1.6 4.2 L 1.6 25.8 L 2.8 25.8" fill="var(--panel-color)" stroke="#000000" stroke-width="1.3" stroke-miterlimit="10" style="fill: light-dark(var(--panel-color), var(--dark-panel-color)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); pointer-events: none;"></path><path d="M 2.8 4.2 L 30.4 4.2 L 30.4 25.8 L 2.8 25.8" fill="none" stroke="white" stroke-width="9.3" stroke-miterlimit="10" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); pointer-events: none;" visibility="hidden"></path> <path d="M 2.8 4.2 L 30.4 4.2 L 30.4 25.8 L 2.8 25.8" fill="none" stroke="#000000" stroke-width="1.3" stroke-miterlimit="10" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); pointer-events: none;"></path> <path d="M 2.8 4.2 L 2.8 25.8" fill="none" stroke="white" stroke-width="9.3" stroke-miterlimit="10" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); pointer-events: none;" visibility="hidden"></path> <path d="M 2.8 4.2 L 2.8 25.8" fill="none" stroke="#000000" stroke-width="1.3" stroke-miterlimit="10" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); pointer-events: none;"></path>
+   </g>
+   <g style="pointer-events: none;">
+    <g transform="scale(0.06)rotate(-90 36.66666666666666 249.99999999999997)" style="pointer-events: none;">
+     <foreignObject style="overflow: visible; text-align: left; pointer-events: none;" width="1667%" height="1667%">
+      <div style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 250px; margin-left: 37px; pointer-events: none;">
+       <div style="box-sizing: border-box; font-size: 0px; text-align: center; color: rgb(0, 0, 0); pointer-events: none;">
+        <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); line-height: 1.2; pointer-events: none; font-weight: bold; white-space: nowrap;">Pool</div>
+       </div>
+      </div>
+     </foreignObject>
+    </g>
+   </g>
+   <g transform="translate(0.5,0.5)" style="visibility: visible; pointer-events: none;">
+    <path d="M 4 4.2 L 2.8 4.2 L 2.8 11.4 L 4 11.4" fill="var(--panel-color)" stroke="#000000" stroke-width="1.3" stroke-miterlimit="10" style="fill: light-dark(var(--panel-color), var(--dark-panel-color)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); pointer-events: none;"></path><path d="M 4 4.2 L 30.4 4.2 L 30.4 11.4 L 4 11.4" fill="none" stroke="white" stroke-width="9.3" stroke-miterlimit="10" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); pointer-events: none;" visibility="hidden"></path> <path d="M 4 4.2 L 30.4 4.2 L 30.4 11.4 L 4 11.4" fill="none" stroke="#000000" stroke-width="1.3" stroke-miterlimit="10" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); pointer-events: none;"></path> <path d="M 4 4.2 L 4 11.4" fill="none" stroke="white" stroke-width="9.3" stroke-miterlimit="10" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); pointer-events: none;" visibility="hidden"></path> <path d="M 4 4.2 L 4 11.4" fill="none" stroke="#000000" stroke-width="1.3" stroke-miterlimit="10" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); pointer-events: none;"></path>
+   </g>
+   <g style="pointer-events: none;">
+    <g transform="scale(0.06)rotate(-90 56.66666666666664 129.99999999999991)" style="pointer-events: none;">
+     <foreignObject style="overflow: visible; text-align: left; pointer-events: none;" width="1667%" height="1667%">
+      <div style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 130px; margin-left: 57px; pointer-events: none;">
+       <div style="box-sizing: border-box; font-size: 0px; text-align: center; color: rgb(0, 0, 0); pointer-events: none;">
+        <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); line-height: 1.2; pointer-events: none; font-weight: bold; white-space: nowrap;">Lane 1</div>
+       </div>
+      </div>
+     </foreignObject>
+    </g>
+   </g>
+   <g transform="translate(0.5,0.5)" style="visibility: visible; pointer-events: none;">
+    <path d="M 4 11.4 L 2.8 11.4 L 2.8 18.6 L 4 18.6" fill="var(--panel-color)" stroke="#000000" stroke-width="1.3" stroke-miterlimit="10" style="fill: light-dark(var(--panel-color), var(--dark-panel-color)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); pointer-events: none;"></path><path d="M 4 11.4 L 30.4 11.4 L 30.4 18.6 L 4 18.6" fill="none" stroke="white" stroke-width="9.3" stroke-miterlimit="10" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); pointer-events: none;" visibility="hidden"></path> <path d="M 4 11.4 L 30.4 11.4 L 30.4 18.6 L 4 18.6" fill="none" stroke="#000000" stroke-width="1.3" stroke-miterlimit="10" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); pointer-events: none;"></path> <path d="M 4 11.4 L 4 18.6" fill="none" stroke="white" stroke-width="9.3" stroke-miterlimit="10" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); pointer-events: none;" visibility="hidden"></path> <path d="M 4 11.4 L 4 18.6" fill="none" stroke="#000000" stroke-width="1.3" stroke-miterlimit="10" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); pointer-events: none;"></path>
+   </g>
+   <g style="pointer-events: none;">
+    <g transform="scale(0.06)rotate(-90 56.66666666666664 249.99999999999994)" style="pointer-events: none;">
+     <foreignObject style="overflow: visible; text-align: left; pointer-events: none;" width="1667%" height="1667%">
+      <div style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 250px; margin-left: 57px; pointer-events: none;">
+       <div style="box-sizing: border-box; font-size: 0px; text-align: center; color: rgb(0, 0, 0); pointer-events: none;">
+        <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); line-height: 1.2; pointer-events: none; font-weight: bold; white-space: nowrap;">Lane 2</div>
+       </div>
+      </div>
+     </foreignObject>
+    </g>
+   </g>
+   <g transform="translate(0.5,0.5)" style="visibility: visible; pointer-events: none;">
+    <path d="M 4 18.6 L 2.8 18.6 L 2.8 25.8 L 4 25.8" fill="var(--panel-color)" stroke="#000000" stroke-width="1.3" stroke-miterlimit="10" style="fill: light-dark(var(--panel-color), var(--dark-panel-color)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); pointer-events: none;"></path><path d="M 4 18.6 L 30.4 18.6 L 30.4 25.8 L 4 25.8" fill="none" stroke="white" stroke-width="9.3" stroke-miterlimit="10" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); pointer-events: none;" visibility="hidden"></path> <path d="M 4 18.6 L 30.4 18.6 L 30.4 25.8 L 4 25.8" fill="none" stroke="#000000" stroke-width="1.3" stroke-miterlimit="10" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); pointer-events: none;"></path> <path d="M 4 18.6 L 4 25.8" fill="none" stroke="white" stroke-width="9.3" stroke-miterlimit="10" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); pointer-events: none;" visibility="hidden"></path> <path d="M 4 18.6 L 4 25.8" fill="none" stroke="#000000" stroke-width="1.3" stroke-miterlimit="10" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); pointer-events: none;"></path>
+   </g>
+   <g style="pointer-events: none;">
+    <g transform="scale(0.06)rotate(-90 56.66666666666667 369.9999999999999)" style="pointer-events: none;">
+     <foreignObject style="overflow: visible; text-align: left; pointer-events: none;" width="1667%" height="1667%">
+      <div style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 370px; margin-left: 57px; pointer-events: none;">
+       <div style="box-sizing: border-box; font-size: 0px; text-align: center; color: rgb(0, 0, 0); pointer-events: none;">
+        <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); line-height: 1.2; pointer-events: none; font-weight: bold; white-space: nowrap;">Lane 3</div>
+       </div>
+      </div>
+     </foreignObject>
+    </g>
+   </g>
+  </g>
+  <g style="pointer-events: none;"></g><g style="pointer-events: none;"></g>
+ </g>
+</svg>

@@ -1,0 +1,5 @@
+@startuml
+skinparam svgInline true
+!include Internet_of_Things_Service.puml
+listsprites
+@enduml
