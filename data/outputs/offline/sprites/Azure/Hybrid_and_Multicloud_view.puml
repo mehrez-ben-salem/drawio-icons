@@ -1,5 +1,0 @@
-@startuml
-skinparam svgInline true
-!include Hybrid_and_Multicloud.puml
-listsprites
-@enduml

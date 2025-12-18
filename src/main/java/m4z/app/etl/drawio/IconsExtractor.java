@@ -25,6 +25,7 @@ import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 import java.text.Normalizer;
 import java.util.*;
+import java.util.function.Predicate;
 import java.util.logging.Logger;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -32,7 +33,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class IconsExtractor extends Processor {
-
+//foreignObject
     private static final Logger logger = Logger.getLogger(IconsExtractor.class.getName());
     private static final String DATA_IMAGE_PREFIX = "data:image/svg+xml;base64,";
     private static final Pattern P_SIZE = Pattern.compile("(?<size>(\\d+\\.?\\d+))(p[tx])?");
@@ -55,7 +56,7 @@ public class IconsExtractor extends Processor {
     }
 
     protected void saveIcons(Stream<MxLibrary> libraries, Path target) {
-        libraries.filter(this::accept).forEach(library -> saveIcons(library, target));
+        libraries.forEach(library -> saveIcons(library, target));
     }
 
     protected Stream<MxLibrary> extractLibraries(Path source) {
@@ -63,24 +64,31 @@ public class IconsExtractor extends Processor {
             Document doc = Jsoup.parse(source);
             Element container = doc.getElementsByClass("geSidebarContainer").first();
             return container.selectStream("a[title].geTitle")
-                    .map(this::extractLibrary);
+                    .map(this::extractLibrary)
+                    .filter(Predicate.not(MxLibrary::isEmpty));
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
     }
 
+
     protected MxLibrary extractLibrary(Element libraryAnchor) {
+        MxLibrary library = createLibrary(libraryAnchor);
+        if(accept(library)){
+            if (isRemoteLibrary(libraryAnchor)) {
+                library.setIcons(extractRemoteIcons(libraryAnchor));
+            } else {
+                library.setIcons(extractIcons(libraryAnchor));
+            }
+        }
+        return library;
+    }
+
+    private MxLibrary createLibrary(Element libraryAnchor) {
         Element span = libraryAnchor.selectFirst("span");
         String libraryName = span.text();
         MxLibrary library = new MxLibrary();
         library.setName(libraryName);
-
-        if (isRemoteLibrary(libraryAnchor)) {
-            library.setIcons(extractRemoteIcons(libraryAnchor));
-        } else {
-            library.setIcons(extractIcons(libraryAnchor));
-        }
-
         return library;
     }
 
@@ -90,7 +98,7 @@ public class IconsExtractor extends Processor {
             logger.fine(String.format("Icons palette '%s' %s", library.getName(), (accepted ? "accepted" : "rejected")));
             return accepted;
         }
-        return !library.getIcons().isEmpty();
+        return true;
     }
 
     protected void saveIcons(MxLibrary library, Path target) {
@@ -165,13 +173,18 @@ public class IconsExtractor extends Processor {
         if (svg == null) {
             return null;
         }
-        Element title = iconAnchor.nextElementSibling();
+        //Element title = iconAnchor.nextElementSibling();
+        Element title = iconAnchor.selectFirst("div");
         if (title == null) {
+            return null;
+        }
+        String iconName = toIconName(title.text());
+        if(iconName.isEmpty()){
             return null;
         }
         Map<String, String> style = parseStyle(svg);
         MxIcon icon = new MxIcon();
-        icon.setTitle(toIconName(title.text()));
+        icon.setTitle(iconName);
         if (style.containsKey("height")) {
             icon.setHeight(extractSize(style.get("height")));
         }
@@ -236,13 +249,21 @@ public class IconsExtractor extends Processor {
     }
 
     protected String toIconName(String description) {
+
+        String iconName = removeAccents(description).replaceAll("[^A-Za-z0-9_]", "_")
+                .replaceAll("[_]+", "_")
+                .replaceAll("_+$", "");;
+        return iconName;
+
+        /*
         String iconName = description.trim()
-                .replaceAll("[)(&]", "")
+                .replaceAll("[)(&]", "_")
                 .replaceAll("[\\s-,/\\:?\"<>|.]+", "_")
                 .replace("_$", "");
         iconName = removeAccents(iconName);
         logger.fine(String.format("Icon description to icon name :%s -> %s", description, iconName));
         return iconName;
+        */
     }
 
     protected String removeAccents(String text) {

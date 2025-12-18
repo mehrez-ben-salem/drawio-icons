@@ -1,5 +1,0 @@
-@startuml
-skinparam svgInline true
-!include AI_and_Machine_Learning.puml
-listsprites
-@enduml

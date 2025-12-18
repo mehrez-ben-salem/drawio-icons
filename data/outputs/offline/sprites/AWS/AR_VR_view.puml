@@ -1,5 +1,0 @@
-@startuml
-skinparam svgInline true
-!include AR_VR.puml
-listsprites
-@enduml

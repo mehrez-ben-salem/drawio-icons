@@ -1,5 +1,0 @@
-@startuml
-skinparam svgInline true
-!include Front_End_Web_Mobile.puml
-listsprites
-@enduml

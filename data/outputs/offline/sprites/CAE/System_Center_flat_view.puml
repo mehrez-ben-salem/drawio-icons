@@ -1,5 +1,0 @@
-@startuml
-skinparam svgInline true
-!include System_Center_flat.puml
-listsprites
-@enduml

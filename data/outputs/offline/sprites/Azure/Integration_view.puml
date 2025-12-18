@@ -1,5 +1,0 @@
-@startuml
-skinparam svgInline true
-!include Integration.puml
-listsprites
-@enduml

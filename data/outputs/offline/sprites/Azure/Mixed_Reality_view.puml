@@ -1,5 +1,0 @@
-@startuml
-skinparam svgInline true
-!include Mixed_Reality.puml
-listsprites
-@enduml

@@ -1,5 +1,0 @@
-@startuml
-skinparam svgInline true
-!include Contact_Center.puml
-listsprites
-@enduml

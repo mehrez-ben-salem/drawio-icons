@@ -1,5 +1,0 @@
-@startuml
-skinparam svgInline true
-!include Security_Identity_Compliance.puml
-listsprites
-@enduml

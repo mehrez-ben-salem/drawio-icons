@@ -20,7 +20,8 @@ app:
       #path: data/inputs/online.html
       filter:
         active: false
-        regex: ^(Office|AWS).*
+        #regex: ^(Office|AWS).*
+        regex: ^(Office).*
     output: data/outputs/offline/icons/
     #output: data/outputs/online/icons/
 

@@ -28,5 +28,8 @@ public class MxLibrary {
         this.icons = icons;
     }
 
+    public boolean isEmpty(){
+        return (icons == null) || icons.isEmpty();
+    }
 
 }

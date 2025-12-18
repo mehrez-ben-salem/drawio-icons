@@ -6,7 +6,8 @@
     <description>Demo project for extracting icons from https://app.diagrams.net/</description>
 
     <properties>
-        <java.version>21</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>25</java.version>
     </properties>
 
     <dependencies>
@@ -40,9 +41,10 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.13.0</version>
                 <configuration>
-                    <source>21</source>
-                    <target>21</target>
+                    <source>25</source>
+                    <target>25</target>
                     <compilerArgs>--enable-preview</compilerArgs>
                 </configuration>
             </plugin>

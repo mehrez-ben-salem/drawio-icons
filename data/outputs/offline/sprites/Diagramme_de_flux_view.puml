@@ -1,5 +1,0 @@
-@startuml
-skinparam svgInline true
-!include Diagramme_de_flux.puml
-listsprites
-@enduml

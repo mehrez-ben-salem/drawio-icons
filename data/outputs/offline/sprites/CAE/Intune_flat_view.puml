@@ -1,5 +1,0 @@
-@startuml
-skinparam svgInline true
-!include Intune_flat.puml
-listsprites
-@enduml

@@ -1,5 +1,0 @@
-@startuml
-skinparam svgInline true
-!include Management_and_Governance.puml
-listsprites
-@enduml

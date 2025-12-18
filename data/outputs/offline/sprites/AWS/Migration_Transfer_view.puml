@@ -1,5 +1,0 @@
-@startuml
-skinparam svgInline true
-!include Migration_Transfer.puml
-listsprites
-@enduml

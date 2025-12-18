@@ -1,5 +1,0 @@
-@startuml
-skinparam svgInline true
-!include Databases_Service.puml
-listsprites
-@enduml

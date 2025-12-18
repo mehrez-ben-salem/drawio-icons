@@ -143,7 +143,8 @@ public class DefaultOptimizer extends Processor {
     protected Element optimizeTree(Element svg) {
         logger.fine("Discard extra directives (foreignObject, metadata, title, desc)");
         //discard unnecessary elements
-        //svg.select("foreignObject, metadata, title, desc").forEach(Node::remove);
+        svg.select("foreignObject, metadata, title, desc").forEach(Node::remove);
+
         svg.select("*").forEach(element -> {
             logger.finer("Discard custom directives, having ':' in tag name)");
             //discard custom elements
